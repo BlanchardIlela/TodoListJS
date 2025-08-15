@@ -71,6 +71,10 @@ class TodoListItem {
         li.append(checkbox)
         li.append(label)
         li.append(button)
+
+        //Création bouton supprimer la tâche
+        button.addEventListener('click', e => this.remove(e))
+
         this.#element = li
     }
 
@@ -79,6 +83,14 @@ class TodoListItem {
      */
     appendTo (element) {
         element.append(this.#element)
+    }
+
+    /**
+     * @param {PointerEvent} e
+     */
+    remove (e) {
+        e.preventDefault();
+        this.#element.remove();
     }
 
 }
