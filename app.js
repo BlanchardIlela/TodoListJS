@@ -1,5 +1,5 @@
 import { fetchJSON } from "./functions/api.js";
-import { TodoList } from "./functions/components/TodoList.js";
+import { TodoList } from "./components/TodoList.js";
 import { createElement } from "./functions/dom.js";
 
 try {

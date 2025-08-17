@@ -1,4 +1,4 @@
-import { createElement } from "../dom.js";
+import { createElement } from "../functions/dom.js";
 
 /**
  * @typedef {object} Todo
