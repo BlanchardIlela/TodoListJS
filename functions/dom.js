@@ -1,5 +1,4 @@
 /**
- * 
  * @param {string} tagName 
  * @param {object} attributes 
  * @returns {HTMLElement}
@@ -16,7 +15,6 @@ export function createElement(tagName, attributes = {}) {
 }
 
 /**
- * 
  * @param {string} id 
  * @returns {DocumentFragment}
  */
