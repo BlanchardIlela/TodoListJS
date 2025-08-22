@@ -4,7 +4,7 @@ import { createElement } from "./functions/dom.js";
 
 try {
     //const todos = await fetchJSON('https://jsonplaceholder.typicode.com/todos?_limit=5');
-    const todosInStorage = localStorage.getItem('todos')?.toString()
+    const todosInStorage = localStorage.getItem(('todos')?.toString())
     let todos = []
     if (todosInStorage) {
         todos = JSON.parse(todosInStorage)
